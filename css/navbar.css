@@ -266,7 +266,7 @@
 
     .mobile-menu{
         font-family: 'Rubik Distressed', cursive;
-        margin-top: 0px;
+        margin-top: 50px;
     }
 
     @media screen and (max-width: 1470px){
