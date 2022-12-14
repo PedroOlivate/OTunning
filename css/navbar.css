@@ -208,37 +208,7 @@
         display: none;
     }
 
-    @media screen and (max-width: 1470px){
-        .nav{
-            padding: 1.5rem 4rem;
-        }
-        li.a {
-            display: none;
-        }   
-        .mobile-menu-icon{
-            display: block;
-        }
-        .mobile-menu-icon button{
-            background-color: transparent;
-            border: none;
-            cursor: pointer ;
-        }
-        .mobile-menu ul{
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            padding-bottom: 0.5rem;
-        }
-            .mobile-menu li{
-                display: block;
-                padding-top: 1rem;
-            }
-            .mobile-menu li.contato{
-                padding: 0;
-            }
-            
-            
-    }   
+   
     .open{
         display: block;
     }
@@ -296,6 +266,93 @@
 
     .mobile-menu{
         font-family: 'Rubik Distressed', cursive;
-        margin-top: 59px;
+        margin-top: 0px;
     }
 
+    @media screen and (max-width: 1470px){
+        .tuning{
+            margin-top: 4px;
+            padding-top: 0.25rem;
+            padding-right: 0rem;
+            padding-left: 0rem;
+            padding-bottom: 0.5rem;
+            margin-right: 50px;
+        }
+        li.contato{
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+
+        margin-left: 0px;
+
+    }
+    li.a{
+        background-color: rgb(0, 0, 0);
+        display: block;
+        float: left;
+    padding: 0.5rem;
+        position: relative;
+        text-decoration: none;
+        transition-duration: 0.5s; 
+        
+        
+    }
+    }
+    @media screen and (max-width: 1150px){
+        .tuning{
+            margin-top: 4px;
+            padding-top: 0.25rem;
+            padding-right: 0rem;
+            padding-left: 0rem;
+            padding-bottom: 0.5rem;
+            margin-right: 0px;
+        }
+        li.a{
+            background-color: rgb(0, 0, 0);
+            display: block;
+            float: left;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+
+            position: relative;
+            text-decoration: none;
+            transition-duration: 0.5s; 
+            
+            
+        }
+    }
+    @media screen and (max-width: 900px){
+        li.a {
+            display: none;
+        }   
+        .nav{
+            padding: 1.5rem 4rem;
+        }
+         
+        .mobile-menu-icon{
+            display: block;
+        }
+        .mobile-menu-icon button{
+            background-color: transparent;
+            border: none;
+            cursor: pointer ;
+        }
+        .mobile-menu ul{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-bottom: 0.5rem;
+        }
+            .mobile-menu li{
+                display: block;
+                padding-top: 1rem;
+            }
+            .mobile-menu li.contato{
+                padding: 0;
+            }
+            
+            
+    }   
